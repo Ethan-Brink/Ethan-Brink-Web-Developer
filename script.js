@@ -38,4 +38,3 @@ darkToggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     darkToggleBtn.textContent = document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
 });
-

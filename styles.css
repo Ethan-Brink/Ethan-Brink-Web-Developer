@@ -202,4 +202,26 @@ body.dark-mode form button {
     background-color: var(--accent);
     color: #000; /* better contrast */
 }
+.project-card a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+#paragraph-centred {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: var(--text);
+}
+#project-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
 
